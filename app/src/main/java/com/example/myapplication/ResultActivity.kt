@@ -16,7 +16,6 @@ class ResultActivity : AppCompatActivity() {
         val points=intent.getIntExtra("points",-1)
 
         when(points){
-            5->binding.textView3.text="التواصل بين الأم وإبنها ممتاز"
             4->binding.textView3.text="التواصل بين الأم وإبنها ممتاز"
             3->binding.textView3.text="التواصل بين الأم وإبنها جيد إلى حد ما "
             2->binding.textView3.text="التواصل بين الأم وإبنها متوسط"
