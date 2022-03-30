@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#FF9CCFE6"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,8 +13,9 @@
         android:layout_height="81dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:text="Family Application"
-        android:textSize="30dp"
+        android:text="@string/family_application"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -27,8 +28,9 @@
         android:layout_height="68dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="100dp"
-        android:text="The Mother"
-
+        android:text="@string/the_mother"
+        android:textColor="@color/black"
+        android:background="#FFB8CFE1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -37,7 +39,9 @@
         android:layout_width="182dp"
         android:layout_height="68dp"
         android:layout_marginTop="50dp"
-        android:text="The Father"
+        android:text="@string/the_father"
+        android:textColor="@color/black"
+        android:background="#FFB8CFE1"
         app:layout_constraintEnd_toEndOf="@+id/button"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
@@ -46,9 +50,11 @@
         android:id="@+id/button3"
         android:layout_width="113dp"
         android:layout_height="63dp"
-        android:layout_marginTop="50dp"
-        android:text="The Son"
+        android:layout_marginTop="48dp"
+        android:text="@string/the_son"
+        android:background="#FFB8CFE1"
         app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 

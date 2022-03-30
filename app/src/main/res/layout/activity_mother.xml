@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="كم فترة جلوسك مع ابنك"
+        android:text="@string/q1"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -35,12 +35,12 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <RadioButton
-            android:id="@+id/btn_2"
+            android:id="@+id/btn_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="100dp"
-            android:text="(2:4)"
+            android:text="@string/_2_4"
             android:textColor="@color/black"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -50,11 +50,11 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <RadioButton
-            android:id="@+id/btn_1"
+            android:id="@+id/btn_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="(4:6)"
+            android:text="@string/_4_6"
             android:textColor="@color/black"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -72,7 +72,7 @@
         android:layout_marginBottom="92dp"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
-        android:text="NEXT"
+        android:text="@string/next"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

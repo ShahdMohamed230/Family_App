@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="family_application">Family Application</string>
+    <string name="the_mother">The Mother</string>
+    <string name="the_father">The Father</string>
+    <string name="the_son">The Son</string>
+    <string name="q1">كم فترة جلوسك مع ابنك</string>
+    <string name="_2_4">(2:4)</string>
+    <string name="_4_6">(4:6)</string>
+    <string name="next">NEXT</string>
+    <string name="the_result">النتيجة</string>
 </resources>
